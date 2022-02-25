@@ -1,13 +1,10 @@
-/*
 package interview_questions;
 
 import java.util.Comparator;
 
-*/
 /**
  * created by ANEK on Sunday 2/13/2022 at 9:33 PM
- *//*
-
+ */
 
 public class Morgan_Stanley {
     public static void main(String[] args) {
@@ -33,15 +30,13 @@ public class Morgan_Stanley {
         Runnable r1 = () -> {System.out.println("r1 "+Thread.currentThread().getName()); };
         new Thread(r1).start();
 
-        */
-/*
+        /*
         *
         * Which design pattern from JDK itself is the collection sort?
           One example of Strategy pattern from JDK itself is a Collections. sort() method and Comparator interface,
 *  which is a strategy interface and defines strategy for comparing objects
         *
-        * *//*
-
+        * */
        
     }
 
@@ -55,4 +50,3 @@ public class Morgan_Stanley {
     }
 
 }
-*/
