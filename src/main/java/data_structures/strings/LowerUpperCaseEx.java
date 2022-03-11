@@ -6,23 +6,22 @@ package data_structures.strings;
 
 public class LowerUpperCaseEx {
     public static void main(String[] args) {
-        char[] arr = {'a','n','e'};
+        char[] arr = {'a','n','e','K','s','I','N','G','H'};
+        System.out.println("char [] :: "+arr);
 
+        char convertedCase = 0;
         for(char c : arr){
-            System.out.println("upper case :: "+ (char)(c-32) );
-        }
+            if(c >= 'a' && c <= 'z'){
+                convertedCase = (char) (c - 32);
+            }else if (c >= 'A' && c <= 'Z'){
+                convertedCase = (char) (c + 32);
+            }
 
-        int i = 0 ;
-        while( i < arr.length){
-            char upperCase = (char) (arr[i] - 32);
-            System.out.println(arr[i]+" in UpperCase :: "+upperCase);
-            i++;
+            System.out.print(convertedCase);
         }
-
-        System.out.println("char [] length :: "+arr.length +" => "+ arr[0]+" , "+arr[1]);
 
         String str = "anek";
-        System.out.println("str :: "+str);
+        System.out.println("\nstr :: "+str);
 
         System.out.printf("%c \n",arr[1]);
 
