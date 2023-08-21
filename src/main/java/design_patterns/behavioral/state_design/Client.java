@@ -7,5 +7,7 @@ package design_patterns.behavioral.state_design;
 public class Client {
     public static void main(String[] args) {
 
+        GateContext gateContext = new GateContext(new ClosedGateState());    
+
     }
 }
